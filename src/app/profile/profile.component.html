@@ -1,0 +1,17 @@
+<h1>PHP with Angular 7 File Upload Example</h1>
+<div>
+  <div *ngIf="uploadResponse && uploadResponse.status === 'error'">
+
+  </div>
+  <div *ngIf="uploadResponse && uploadResponse.status === 'success'">
+    <img [src]='uploadResponse.url' />
+  </div>
+
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+
+    <input type="file" name="avatar" (change)="onFileSelect($event)" />
+    <button type="submit">Upload</button>
+
+  </form>
+</div>
+
