@@ -1,6 +1,16 @@
-# Frontend
+# Upload de Arquivo com php e angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+Implementação de um simples sistema para fazer upload de arquivos através de um  script PHP que disponibiliza o endpoint /upload.php para requisiçoes POST , com CORS habilitado para aceitar requisiçoes de diferentes domínios
+
+Frontend criado com angular 10 ,formulario para  upload utilizando o FormData e HttpClient para enviar os dados para o servidor PHP  através de um formualario reativo vinculado a um <form>
+
+## serve PHP
+Para rodar o servidor PHP , na pasta do projeto entre com o seguinte commando 
+`php -S localhost:8000`
+
+## Frontend
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
 
 ## Development server
 
