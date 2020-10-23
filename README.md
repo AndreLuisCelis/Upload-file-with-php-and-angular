@@ -8,6 +8,8 @@ Frontend criado com angular 10 ,formulario para  upload utilizando o FormData e 
 Para rodar o servidor PHP , na pasta do projeto entre com o seguinte commando 
 `php -S localhost:8000`
 
+Os arquivos serão salvos na pasta `/uploads` dentro da pasta do projeto.
+
 ## Frontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
