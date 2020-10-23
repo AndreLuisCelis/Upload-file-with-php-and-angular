@@ -1,6 +1,6 @@
 # Upload de Arquivo com php e angular
 
-Implementação de um simples sistema para fazer upload de arquivos através de um  script PHP que disponibiliza o endpoint /upload.php para requisiçoes POST , com CORS habilitado para aceitar requisiçoes de diferentes domínios
+  Simples sistema para fazer upload de arquivos através de um  script PHP que disponibiliza o endpoint /upload.php para requisiçoes POST , com CORS habilitado para aceitar requisiçoes de diferentes domínios
 
 Frontend criado com angular 10 ,formulario para  upload utilizando o FormData e HttpClient para enviar os dados para o servidor PHP  através de um formulario reativo vinculado a um `<form>`
 
